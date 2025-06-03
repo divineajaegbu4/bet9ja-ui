@@ -1,0 +1,67 @@
+:root {
+  /*🎨 ==========BACKGROUND COLORS============== */
+  --bg-arrow-bottom: #ffd63a;
+  --bg-header: #373a45;
+  --bg-body: #000000;
+  --bg-login: #1f7d53;
+
+  /*🔠 =============DISPLAY LAYOUT============*/
+  --display-layout: flex;
+
+  /*📦 ============POSITIONS============ */
+  --position-absolute: absolute;
+  --position-relative: relative;
+
+  /*🎨 =============TEXT COLORS=========== */
+  --clr-orange: #ffd63a;
+  --clr-green: #169976;
+  --clr-white: #f5f5f5;
+
+  /*🔠 ==============FONT SIZES========= */
+  --size-xs: 0.7rem;
+  --size-sm: 0.9rem;
+
+  /*📦 ===========SPACING(MARGIN AND PADDING)============*/
+  --space-0: 0;
+  --space-xs: 0.2rem;
+  --space-sm: -0.3rem;
+
+  /*📏===============WIDTH VALUES============== */
+  --width-sm: 2.5rem;
+
+  /*📏===========MAX WIDTH VALUES============ */
+  --max-width-md: 11rem;
+
+  /*📏 =============MIN WIDTH VALUES============ */
+
+  /*🎨 ==============HEIGHT================ */
+  --h-login: 36px;
+
+  /*🖋 =============FONT FAMILY============= */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: var(--space-0);
+  margin: var(--space-0);
+}
+
+/* Fill the space of the screen (100%). It won’t go smaller than 21rem (336px) or bigger than 100rem (1600px). */
+body {
+  background-color: var(--bg-body);
+  font-family: "Inter", sans-serif;
+}
+
+.header__link {
+  text-decoration: none;
+}
+
+.header__link--green:hover {
+  color: var(--clr-green);
+}
